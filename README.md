@@ -1,6 +1,8 @@
 switch_default_browser_on_osx
 =============================
 
+[Japanese README](README.ja.md)
+
 A shell script and keyboard shortcut config for [Karabiner]( https://pqrs.org/osx/karabiner/index.html.en ) to switch the default browser on OS X Yosemite
 
 This shell script execute [kerma/defaultbrowser](https://github.com/kerma/defaultbrowser) to swith the default browser. Thanks for a nice software!
