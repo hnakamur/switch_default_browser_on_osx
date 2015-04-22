@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<root>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Safari</name>
+    <url type="shell">
+      <![CDATA[ ~/bin/switch_default_browser.sh safari ]]>
+    </url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Google_Chrome</name>
+    <url type="shell">
+      <![CDATA[ ~/bin/switch_default_browser.sh chrome ]]>
+    </url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Firefox</name>
+    <url type="shell">
+      <![CDATA[ ~/bin/switch_default_browser.sh firefox ]]>
+    </url>
+  </vkopenurldef>
+
+  <item>
+    <name>Map right-⌘ + S to set default browser to Safari</name>
+    <identifier>private.right_command_s</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Safari
+    </autogen>
+  </item>
+
+  <item>
+    <name>Map right-⌘ + C to set default browser to Google Chrome</name>
+    <identifier>private.right_command_c</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::C, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Google_Chrome
+    </autogen>
+  </item>
+
+  <item>
+    <name>Map right-⌘ + F to set default browser to Firefox</name>
+    <identifier>private.right_command_f</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Firefox
+    </autogen>
+  </item>
+
+</root>
